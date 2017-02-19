@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Montserrat|Open+Sans|Source+Sans+Pro');
+
+html {
+  height: 100%;
+  background: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+#business-card {
+  position: absolute;
+  top: calc(50% - 157px);
+  left: calc(50% - 250px);
+  width: 500px;
+  height: 315px;
+  background: #FFFFFB;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.50);
+  border-radius: 4px;
+  margin: auto;
+  padding-top: 60px;
+  box-sizing: border-box;
+}
+
+#business-card h1, h2 {
+  font-family: "Montserrat";
+  font-weight: normal;
+  color: #4A4A4A;
+  text-align: center;
+  margin-top: 0;
+}
+
+#business-card h1 {
+  font-size: 32px;
+}
+
+#business-card h2 {
+  font-size: 20px;
+}
+
+#business-card #social-links {
+  position: absolute;
+  left: 45px;
+  bottom: 30px;
+}
+
+#business-card #contact {
+  position: absolute;
+  right: 45px;
+  bottom: 30px;
+}
+
+#business-card img {
+  width: 30px;
+  position: relative;
+  top: 8px;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+#business-card a {
+  text-decoration: none;
+}
+
+#business-card p {
+  font-family: "Inconsolata";
+  font-size: 20px;
+  color: #4A4A4A;
+  margin: 0;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (orientation: portrait) {
+	#business-card {
+    transform: scale(2) rotate(90deg);
+  }
+}
+
