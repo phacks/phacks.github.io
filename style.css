@@ -66,6 +66,16 @@ html {
   margin: 0;
 }
 
+#business-card .front-conf-slides {
+  font-family: "Montserrat";
+  text-align: center;
+  text-decoration: underline;
+  color: #3C525F;
+  position: absolute;
+  left: 100px;
+  bottom: -50px;
+}
+
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
